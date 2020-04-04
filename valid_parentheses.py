@@ -3,7 +3,7 @@
 class Solution:
 
     @classmethod
-    def valid(self, s):
+    def valid(cls, s):
         result = []
         kmap = {
             "{": "}",
